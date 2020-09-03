@@ -5,13 +5,14 @@
 In this exercise we used object oriented programming to create the classic
 game "Four In A Row". The game uses three main classes:
 
-###Game### 
+### Game ### 
+
 Handles the logic of the game. Determines the state of the board and
 whether one of the players has won. This class an integral part of the program
 that acts as a "puppet master" for the GUI.
 
 
-###Four in a row### 
+### Four in a row ### 
 The main program that runs the game and handles the graphic
 user interface. The order of the commands is important for the smooth execution
 of the game. The two players must have the same board status at all times for
@@ -19,7 +20,7 @@ them to be able to play. In addition, the GUI manages the input in a way that
 enables only the current player to make a move. It was easy to achieve this
 with humans, a bit harder to get consistent results with A.I.
 
-###A.i.### 
+### A.i. ### 
 In this short class defined how the "computer"  decides on a move.
 We chose to implement the naive random solution.
 
@@ -30,7 +31,7 @@ Rather than adding many textures and pictures that might make it hard to focus
 on the game itself, we chose to go with a bare bones approach that takes some
 inspiration from operating systems such as mac OS and android.
 
-##Dilemmas##
+## Dilemmas ##
 
 Initially, we created the whole game without using a class for the GUI.
 Only later, when we arrived at the communication part we decided to convert the
